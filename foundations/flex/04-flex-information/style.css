@@ -24,3 +24,33 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solutions */
+/* * {
+  outline: 2px solid red;
+} */
+.title {
+  /* outline: 2px dotted black; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.media {
+  /* outline: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  gap : 52px;
+  margin : 32px
+}
+
+.items {
+  flex-basis: 200px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap : wrap;
+}
+
+.text {
+  text-align: center;
+}
